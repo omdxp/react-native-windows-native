@@ -6,6 +6,8 @@
 #define _USE_MATH_DEFINES
 #include <math.h>
 
+#include "NativeModules.h"
+
 namespace winrt::ReactWindowsNative {
 	// this is the name of react native module on windows
 	REACT_MODULE(FancyMath);
